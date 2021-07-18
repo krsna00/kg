@@ -585,7 +585,7 @@ footer {
 
 }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
     .skills .skills-content .right .info{
       display: flex;
       justify-content: justify;
@@ -626,44 +626,5 @@ footer {
 }
 
 
-@media (max-width: 320px) {
-    .skills .skills-content .right .info{
-      display: flex;
-      justify-content: justify;
-      width: 100%;
-    
-    }
-
-    .skills .skills-content .left {
-        flex: 100%;
-        margin-bottom: 35px;
-        text-align: center;
-    }    
-
-    .skills .skills-content .right {
-        width: 100%;
-    }    
 
 
-    .contact .contact-content .left {
-        width: 100%;
-        margin-bottom: 40px;
-    }
-
-    .contact .contact-content .right {
-        width: 100%; 
-    }
-    
-    
-    .contact .contact-content .right .fields {
-        margin-bottom: 15%;
-    }
-
-    .contact .contact-content .right .fields input {
-        width: 100%;
-    }   
-    
-    .contact {
-        margin-bottom: 100px;
-    }
-}
