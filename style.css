@@ -499,7 +499,7 @@ footer {
     }
 }
 
-@media (.max-width: 1104px) {
+@media (max-width: 1104px) {
     .about .about-content .left img {
         height: 350px;
         width: 350px;
@@ -615,7 +615,7 @@ footer {
     
     
     .contact .contact-content .right .fields {
-        margin-bottom: 15%;
+        margin-bottom: 20%;
     }
 
     .contact .contact-content .right .fields input {
