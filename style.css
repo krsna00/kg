@@ -266,7 +266,6 @@ background: url(banner3.5.jpg) no-repeat center;
     text-align: center;
     font-size: 30px;
     padding-bottom: 50px;
-    margin-top: 6%;
     margin-bottom: 40px;
 }
 
@@ -347,6 +346,11 @@ background: url(banner3.5.jpg) no-repeat center;
 .skills-content .right .js::before{
     width: 70%;
 }
+
+.skills-content .right .php::before{
+    width: 70%;
+}
+
 
 .skills-content .right .ps::before{
     width: 75%;
